@@ -1,0 +1,48 @@
+<html>
+	<h2>How to use Search</h2>
+	<p>
+		The purpose of the Search is to allow the user to search a folder, or folders, that contains DICOM files.
+		<br><br>
+		There are 3 search criteria that can be used; these are:<br>
+		<ul>
+			<li>Patient Name</li>
+			<li>Body Part Examined</li>
+			<li>Acquisition Date</li>
+		</ul>
+	</p>
+	<h2>Starting the search:-</h2>
+	<p>
+		By default all the search options above are disabled; to enable the search, check the box beside the item for which you wish to search.<br>
+		For instance; to perform a search for "Patient Name", check the box beside it.  
+		The search areas for "First Name" and "Last Name" are now enabled and you can type the search criteria into them.
+		<br><br>
+		You can perform wilcard searches by entering the following symbols: <br>
+		<i>Note: These examples are for "First Name", you can use the same criteria for "Last Name"</i>
+	</p>
+	<ul>
+		<li>Joe* 
+			<ul><li>this will return a list of patients where the First Name starts with "Joe"</li></ul>
+		</li>
+		<li>*mith
+			<ul><li>this will return a list of patients where the First Name ends with "mith"</li></ul>
+		</li>
+		<li>*mac*
+			<ul><li>this will return a list of patients where the letters "mac" are somewhere in the First Name</li></ul>
+		</li>		
+		<li>Br?an
+			<ul><li>this will return a list of patients where the First Name is "Brian" or "Bryan"; the ? symbol replaces one letter only</li></ul>
+		</li>
+	</ul>	
+	<h2>Actions</h2>
+	<ul>
+		<li>Search
+			<ul><li>Performs the search based on the criteria entered.  If no criteria is entered an alert will be displayed</li></ul>
+		</li>
+		<li>Close
+			<ul><li>Closes the search screen and returns to the main DICOM application</li></ul>
+		</li>
+		<li>Help
+			<ul><li>Displays this help screen</li></ul>
+		</li>		
+	</ul>	
+</html>
