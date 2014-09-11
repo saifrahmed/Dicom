@@ -8,7 +8,8 @@ The purpose of this project is to display DICOM images using the PixelMed librar
 DICOM images are medical images that have been acquired through various modalities (CT Scan, X-Ray, etc)
 Each DICOM file contains an image, or series of images, along with image and patient attributes.
 
-To run this program, place the pixelmed.jar file in the %CLASSPATH% and compile/run
+To run this program, place the pixelmed.jar file in the %CLASSPATH% and compile/run.  The DicomAnonymizer 
+file is the entry point.
 
 You will also need some DICOM images to test this; there are some in the /images folder and 
 links for more are available on David Clunie's site http://www.dclunie.com/
